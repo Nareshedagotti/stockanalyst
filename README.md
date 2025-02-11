@@ -101,13 +101,18 @@ TradeWise AI is a **Streamlit-based web application** that helps traders analyze
 ```
 tradewise-ai/
 ├── app/
-│   ├── main.py            # Main application
-│   ├── analysis.py        # Stock analysis functions
-│   ├── visualization.py   # Visualization components
-│   ├── forecasting.py     # Forecasting functions
-│   └── utils.py           # Utility functions
-├── requirements.txt       # Python dependencies
-└── README.md              # Project documentation
+│   ├── __init__.py
+│   ├── main.py
+│   ├── utils/
+│   │   ├── __init__.py
+│   │   ├── data_handler.py
+│   │   └── llm_helper.py
+│   ├── modules/
+│   │   ├── __init__.py
+│   │   ├── analysis.py
+│   │   ├── visualization.py
+│   │   └── forecasting.py
+└── requirements.txt
 ```
 
 ---
@@ -128,13 +133,16 @@ tradewise-ai/
 ## Screenshots 📸
 
 ### Real-time Analysis
-![Real-time Analysis](screenshots/analysis.png)
+![Screenshot 2025-02-11 115438](https://github.com/user-attachments/assets/e100234e-7460-499c-9656-15377651ca76)
+
 
 ### Advanced Visualization
-![Advanced Visualization](screenshots/visualization.png)
+![Screenshot 2025-02-11 115600](https://github.com/user-attachments/assets/7b69af0e-d36e-4fca-a83c-95202b0fa049)
+
 
 ### AI Forecasting
-![AI Forecasting](screenshots/forecasting.png)
+![Screenshot 2025-02-11 115800](https://github.com/user-attachments/assets/8239301f-b292-421c-986a-a61ea368b5ba)
+
 
 ---
 
